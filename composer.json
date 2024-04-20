@@ -1,0 +1,17 @@
+{
+    "name": "php/primeiroprojetocomposer",
+    "description": "Este é o meu primeiro projeto em PHP usando composer",
+    "autoload": {
+        "psr-4": {
+            "Php\\Primeiroprojetocomposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aluno"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "5.3.3"
+    }
+}
