@@ -37,8 +37,6 @@ class FornecedorDAO{
             $p->bindValue(":estado",$fornecedor->getEstado());
             return $p->execute();
         } catch (Exception $e) {
-            // Exibe a mensagem de erro do PDO
-            echo "Erro ao inserir fornecedor: " . $e->getMessage();
             return 0;
         }
     }
